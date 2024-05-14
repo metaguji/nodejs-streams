@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-streams",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/node": "20.12.12",
+    "ts-node": "^10.9.2",
+    "typescript": "5.4.5"
+  },
+  "scripts": {
+    "readable": "ts-node src/readable.ts",
+    "writable": "ts-node src/writable.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
